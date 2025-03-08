@@ -1,0 +1,157 @@
+body {
+    align-items: center;
+	scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3%;
+	background-color: white;
+}
+
+header .logo {
+    font-family: "Geologica", sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    color: #000;
+    transition: .5s;
+}
+
+header .logo:hover {
+    transform: scale(1.2);
+}
+
+header nav ul li {
+    position: relative;
+    float: left;
+}
+
+header nav ul li a {
+	font-family: "Geologica", serif;
+    padding: 30px;
+    color: #000;
+    font-size: 16px;
+    display: block;
+}
+
+header nav ul li a:hover {
+    background: #000;
+    color: #fff;
+}
+
+.images {
+	display: flex;
+	justify-content: center;
+	column-gap: 10px;
+	row-gap: 10px;
+	margin-top: 30px;
+}
+
+.description {
+	font-family: "Geologica", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: regular;
+	font-style: normal;
+    justify-content: flex-start;
+    width: auto;
+    text-align: left;
+	line-height: 25px;
+	margin-top: 85px;
+    /*
+    margin-left: 80px;
+    margin-right: 80px;*/
+	padding: 50px 70px;
+	background-color: #2eb9ff;
+	color: #fff;
+}
+
+/*.text-decor {
+	text-align: center;
+	text-decoration-line: line-through;
+	text-decoration-color: coral;
+}*/
+
+.main {
+	font-family: "Geologica", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 700;
+	font-style: italic;
+}
+
+.file-heading_name {
+	font-size: 20px;
+	color: black;
+}
+	
+.preview {
+	margin-bottom: 25px;
+}
+	
+.file-heading_name {
+	font-family: "Geologica", sans-serif;
+	margin: 10px 12px 6px;
+}
+	
+.teaser-title {
+	display: flex;
+	justify-content: center;
+}
+	
+.teaser-taglist {
+	font-family: "Geologica", sans-serif;
+	font-size: 15px;
+	display: flex;
+	justify-content: center;
+	flex-flow: row wrap;
+	margin: 13px;
+}
+
+.map-tags {
+	padding: 4px 15px 4px 15px;
+}
+
+.maps-block {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	row-gap: 12px;
+	column-gap: 12px;
+	margin-bottom: 55px;
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	width: 295px;
+	height: 100%;
+	overflow: hidden;
+	background: #e6e6e6;
+	border-radius: 15px;
+	font-size: 14px;
+	line-height: 130%;
+	transition: box-shadow .15s linear 0s;
+	/*margin-left: 55px;*/
+}
+
+card h2:hover {
+	color: white;
+}
+
+.card:hover {
+	background-color: #2eb9ff;
+	font-color: white;
+}
